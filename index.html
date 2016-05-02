@@ -1,12 +1,34 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="./styles.css" type"text/css">
 	<title>ios-controls</title>
 </head>
 <body>
-
 <div id="control">
-	
+
+  <div class="side">
+      <input type="checkbox" class="checkbox" id="checkbox" checked="" />
+      <label for="checkbox" class="ios-switch">Change Checkbox</label>
+      <input type="checkbox" class="checkbox" id="checkbox2" />
+      <label for="checkbox2" class="ios-switch">Change Checkbox</label>
+  </div>  
+
+   <div class="side"> 
+      <input type="radio" name="ios-radio" value="#0000ff" id="blue" class="ios-radio" checked="" />
+      <label for="blue" class="ios-radio-label">radio button 1</label>
+      <input type="radio" name="ios-radio" value="#00ffff" id="cyan" class="ios-radio"/>
+      <label for="cyan" class="ios-radio-label">radio button 2</label>
+  </div>
+
+  <div class="side">
+    <input type="radio" name="gray-radio" value="#00ffff" id="gray1" class="gray-radio" checked=""/>
+    <label for="gray1" class="gray-radio-label">radio button 2</label>
+    <input type="radio" name="gray-radio" value="#00ffff" id="gray2" class="gray-radio"/>
+    <label for="gray2" class="gray-radio-label">radio button 2</label>
+  </div>
+  
 </div>
 
 </body>
